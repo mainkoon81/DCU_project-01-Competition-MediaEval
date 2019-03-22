@@ -16,16 +16,25 @@ As part of the MediaEval 2019 Benchmarking Initiative for Multimedia Evaluation,
      - __2.Descriptive titles:__ Each video also comes with its original title. These titles can often be interpreted as a list of tags (textual metadata) that might be useful to infer the memorability of the videos. Participants are free to use them or not.
      - __3.pre-computed content descriptors:__ 
        - a) video-dedicated features
-         - **C3D:** spatio-temporal visual features
+         - **C3D:** spatio-temporal visual features:
            - obtained by extracting the output of the final classification layer of the C3D model(3-dimensional convolutional network proposed for generic video analysis).
          - **HMP:** the histogram of motion patterns for each video.
-       - b) Additional frame-based features
+       - b) Additional frame-based features:
          - For First/Middle/Last Frame for each video,
            - **HoG descriptors** (Histograms of Oriented Gradients) are calculated on 32x32 windows on a grey scale version of each frame; 
            - **LBP** (Local Binary Patterns) are calculated for patches of 8x15 pixels; 
            - InceptionV3 features correspond to the output of the fc7 layer of the InceptionV3 deep network; 
            - **ORB** features result from a fusion of FAST keypoint detector and BRIEF descriptor and Color histograms are computed in the HSV space.
-           
+       - c) Aesthetic visual features:
+         - Composed of **color, texture and object** based descriptors, aggregated through the computation of their mean and median values, AVF are extracted for each 10-frame of one single video.
+
+ - [Ground Truth]
+   - 1. Protocol to measure video memorability
+     - 
+   - 2. Memorability scores calculation
+     - 
+
+
 
 
 
