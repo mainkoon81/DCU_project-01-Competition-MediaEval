@@ -10,7 +10,7 @@ As part of the MediaEval 2019 Benchmarking Initiative for Multimedia Evaluation,
  - No large-scale dataset is available, for the community to build our models. The purpose of this task is therefore to propose a public benchmark to assess the memorability of videos, based on a publicly released large-scale dataset and on an objective and clear measurement protocol.
  - [Task]
    - Goal: Build systems that are capable of predicting how memorable a video is, by computing for each video a **memorability score**. Participants are required to train computational models capable of inferring **memorability from visual content**. 
-   - Dataset:
+   - Dataset Fields:
      - __0.video file names:__ 10,000 short soundless videos shared under a license that allows their use and redistribution in the context of MediaEval 2018. These 10,000 videos were split into 8,000 videos for the development set and 2,000 videos for the test set. They were extracted from raw footage used by professionals when creating content. Of 7s-duration each, they are varied and contain different scenes types. 
      - __1.Annotations:__ the dataset comes with both **"short-term"** and **"long-term"** memorability "annotations" (expecting long-term memorability annotations to be more representative of the performance, and more relevant in many applications).
      - __2.Descriptive titles:__ Each video also comes with its original title. These titles can often be interpreted as a list of tags (textual metadata) that might be useful to infer the memorability of the videos. Participants are free to use them or not.
