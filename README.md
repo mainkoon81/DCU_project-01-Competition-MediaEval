@@ -40,10 +40,10 @@ As part of the MediaEval 2019 Benchmarking Initiative for Multimedia Evaluation,
 the typical memory performance after the max interval (i.e., 100 videos). Because we observed that memorability decreases linearly when the retention duration increases, we decided to apply a linear correction. Nevertheless, note that the applied correction only has a little effect on the memorability scores both in term of absolute and relative values. On the contrary, we did not apply any correction for long-term scores. Indeed, we observed no specific relationship between retention duration and long-term memorability from our collected scores. This was expected from what can be found in the literature: according to our protocol, the second measure was carried out 24 to 72 hours after the first measure. After such a long retention duration, it is expected that the memory performance is no more subjected to substantial decrease due to the retention duration.
 
 In sum, it consists of
- - the video's name given as videoX.webm 
- - its short-term memorability score.
+ - the video's `name` given as videoX.webm 
+ - `its short-term memorability score`.
  - No.of annotations which was used to calculate its short-term memorability score.
- - its long-term memorability score.
+ - `its long-term memorability score`.
  - No.of annotations which was used to calculate its long-term memorability score.
 
    - C. Run
