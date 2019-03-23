@@ -13,7 +13,8 @@ As part of the MediaEval 2019 Benchmarking Initiative for Multimedia Evaluation,
    - Goal: Build systems that are capable of predicting how memorable a video is, by computing for each video a **memorability score**. Participants are required to train computational models capable of inferring **memorability from visual content**. These 10,000 videos were split into 8,000 videos for the development set and 2,000 videos for the test set. They were extracted from raw footage used by professionals when creating content. Of 7s-duration each, they are varied and contain different scenes types. 
    
    - A. Datasets Available  
-       - __1.Caption dataset:__ it has the video's `name` given as videoX.webm, and each video also comes with its original title. These titles can often be interpreted as a list of tags (textual metadata) that might be useful to infer the memorability of the videos. Participants are free to use them or not.
+       - __1.Caption dataset:__ (6000 x 2)
+         - it has the video's `name` given as videoX.webm, and each video also comes with its original title. These titles can often be interpreted as a list of tags (textual metadata) that might be useful to infer the memorability of the videos. Participants are free to use them or not.
        
        - __2.pre-computed content descriptors:__ 
          - a) video-dedicated features
@@ -30,7 +31,7 @@ As part of the MediaEval 2019 Benchmarking Initiative for Multimedia Evaluation,
          - c) Aesthetic visual features:
            - Composed of **color, texture and object** based descriptors, aggregated through the computation of their mean and median values, AVF are extracted for each 10-frame of one single video.
            
-       - __3.Ground Truth dataset:__
+       - __3.Ground Truth dataset:__ (6000 x 5)
          - 1. Protocol to measure video memorability(recognition tests)
            - Participants viewed a sequence of 180 various videos they were unfamiliar with, 40 of which being targets videos, i.e., repeated videos, and the other being fillers, i.e., videos that occurred only once. Their task was to press the space bar whenever they detected a repetition. After 24 to 72 hours, participants viewed a new sequence of videos consisting of 40 targets, which were videos randomly chosen from the fillers of the first part, and 120 new fillers. memory performance was therefore measured twice: a few minutes after memorization and again (on different items) 24-72 hours later. Thus, the dataset comes with both short-term and long-term annotations. These two scores will allow a comparison of the participants’ systems for both short and long term memorability prediction. However, because of the difficulty to collect data after a long delay through crowdsourcing, the number of annotations is bigger for short-term memorability scores than for long-term ones. On average, each video received 38 and 13 annotations in the short-term and long-term recognition task, respectively. For each video in the development set, we provide the number of annotations for both tasks.
            
