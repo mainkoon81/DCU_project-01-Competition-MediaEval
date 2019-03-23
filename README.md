@@ -23,8 +23,9 @@ As part of the MediaEval 2019 Benchmarking Initiative for Multimedia Evaluation,
          - For First/Middle/Last Frame for each video,
            - **HoG descriptors** (Histograms of Oriented Gradients) are calculated on 32x32 windows on a grey scale version of each frame; 
            - **LBP** (Local Binary Patterns) are calculated for patches of 8x15 pixels; 
-           - InceptionV3 features correspond to the output of the fc7 layer of the InceptionV3 deep network; 
-           - **ORB** features result from a fusion of FAST keypoint detector and BRIEF descriptor and Color histograms are computed in the HSV space.
+           - **InceptionV3 features** correspond to the output of the fc7 layer of the InceptionV3 deep network; 
+           - **ORB** features result from a fusion of FAST keypoint detector and BRIEF descriptor 
+           - **Color histograms** are computed in the HSV space.
        - c) Aesthetic visual features:
          - Composed of **color, texture and object** based descriptors, aggregated through the computation of their mean and median values, AVF are extracted for each 10-frame of one single video.
 
