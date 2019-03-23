@@ -1,0 +1,7 @@
+Copyright © 2018 Thomson Licensing  a company of Technicolor group- . All rights reserved.
+
+All files in this folder contain Thomson Licensing’s proprietary and confidential information.
+Passing on and copying of these files, use, extraction, modification and communication of
+their contents, is permitted strictly under the Mediaeval 2018 usage agreement. Any other use,
+extraction, modification or communication is strictly prohibited without the express and
+written consent of Thomson Licensing.
