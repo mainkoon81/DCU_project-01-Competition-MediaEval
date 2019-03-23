@@ -61,7 +61,7 @@ As part of the MediaEval 2019 Benchmarking Initiative for Multimedia Evaluation,
        - Long-term memorability subtask – required run: Any information (extracted from the content, the provided features, the long-term memorability scores or external data) is allowed to build the systems, except the use of the short-term memorability scores which is not allowed. 
        - Apart from these required runs, any additional run for each subtask will be considered as a general run, i.e., anything is allowed, both from the method point of view and the information sources.
      
-   - C. Evaluation
+   - C. Evaluation for this regression
      - For both subtasks, the official evaluation metric will be the Spearman’s rank correlation between the `predicted memorability scores` and the `ground-truth memorability scores` computed over all test videos. Although the task remains a prediction task, only the ranking of the different videos will be evaluated by the official metric.
      - The choice of the **Spearman’s rank correlation** as official measure indeed corresponds to a desire of normalizing the output of the different systems and making the comparison easier. For this reason, participants are encouraged to really consider the task as a prediction task. Other classic metrics (i.e., Pearson correlation and Mean squared error) will also be computed and provided to the participants for the sake of comparison between the different runs and systems.
 
