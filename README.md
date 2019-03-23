@@ -1,5 +1,7 @@
 # DCU_project-01-Competition-MediaEval
 
+This challenge comes from the MediaEval conference. Every year academics propose new datasets for machine learning tasks, and teams compete against each other to see who can get the highest accuracy. This is done by providing a test-set where participants do not have access to ground truth. The participants upload predictions, and the organizers grade them on the results of this testset.
+
 Task: Predicting Media Memorability
 (http://www.multimediaeval.org/mediaeval2018/)
 
